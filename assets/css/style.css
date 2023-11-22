@@ -88,7 +88,7 @@ background-color: lightblue;
 /*Make main element take up any surplus space to push footer down
 */
 flex: 1 0 auto;
-margin-top: 5em;
+margin-top: 47px;
 }
 
 /*Footer*/
@@ -115,5 +115,16 @@ footer {
     }
     .nav-toggle-label {
         display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /*Main content*/
+    main {
+        /*Push main content down*/
+        margin-top: 79px;
     }
 }
