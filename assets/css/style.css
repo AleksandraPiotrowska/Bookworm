@@ -125,6 +125,8 @@ benefits hr {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    filter: blur(1.5px) sepia(1);
+    color: rgb(116, 106, 106);
 }
 
 #benefits-image {
