@@ -37,7 +37,40 @@
     </header>
 
     <!--Main content-->
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-book-open-reader"></i>Let's Bookworm Up!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        
+                        <input type="radio" name="day-preference" id="weekdays" value="weekdays" required checked>
+                        <label for="weekdays">Weekdays</label>
+                    </div>
+                    <div>
+                        
+                        <input type="radio" name="day-preference" id="weekend" value="weekend" required checked>
+                        <label for="weekend">Weekend</label>
+                    </div>
+                    <div>
+                        
+                        <input type="radio" name="day-preference" id="all-days" value="all-days" required checked>
+                        <label for="all-days">All Days </label>
+                    </div>
+                </div>
+                <button type="submit" class="bookworm-button">Let's Bookworm</button>
+            </form>
+        </section>
+    </main>
 
     <!--Footer-->
     <footer>
