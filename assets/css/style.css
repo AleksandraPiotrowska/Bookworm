@@ -215,14 +215,14 @@ nav {
     background-image: url("../images/seven-shooter-hPKTYwJ4FUo-unsplash.jpg");
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 10px 10% 0 10%;
     flex-grow: 1;
 }
 
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
+    padding: 0px;
 }
 
 #signup-form>h2 {
